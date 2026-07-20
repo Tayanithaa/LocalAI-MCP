@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+sandbox/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Google Calendar OAuth secrets -- never commit these
+tools/calendar/credentials.json
+tools/calendar/token.json
+
+# Editor
+.vscode/
+.idea/
