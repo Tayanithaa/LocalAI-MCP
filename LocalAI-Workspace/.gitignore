@@ -12,6 +12,9 @@ venv/
 # Google Calendar OAuth secrets -- never commit these
 tools/calendar/credentials.json
 tools/calendar/token.json
+tools/gmail/credentials.json
+tools/gmail/token.json
+
 
 # Editor
 .vscode/
