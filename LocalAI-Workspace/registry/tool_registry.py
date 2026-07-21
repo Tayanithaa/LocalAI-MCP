@@ -33,8 +33,8 @@ TOOL_SERVERS: dict[str, Path] = {
     #"filesystem": REPO_ROOT / "tools" / "filesystem" / "server.py",
     #"duckduckgo": REPO_ROOT / "tools" / "duckduckgo" / "server.py",
     "calendar": REPO_ROOT / "tools" / "calendar" / "server.py",
-    # "github": REPO_ROOT / "tools" / "github" / "server.py",
-    # "gmail": REPO_ROOT / "tools" / "gmail" / "server.py",
+    "github": REPO_ROOT / "tools" / "github" / "server.py",
+    "gmail": REPO_ROOT / "tools" / "gmail" / "server.py",
     # "docker": REPO_ROOT / "tools" / "docker" / "server.py",
 }
 
