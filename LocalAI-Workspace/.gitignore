@@ -14,7 +14,14 @@ tools/calendar/credentials.json
 tools/calendar/token.json
 tools/gmail/credentials.json
 tools/gmail/token.json
-
+tools/github/credentials.json
+tools/github/token.json
+tools/gdrive/credentials.json
+tools/gdrive/token.json
+tools/gdocs/credentials.json
+tools/gdocs/token.json
+tools/gmeet/credentials.json
+tools/gmeet/token.json
 
 # Editor
 .vscode/

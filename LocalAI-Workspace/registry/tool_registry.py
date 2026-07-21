@@ -35,6 +35,9 @@ TOOL_SERVERS: dict[str, Path] = {
     "calendar": REPO_ROOT / "tools" / "calendar" / "server.py",
     "github": REPO_ROOT / "tools" / "github" / "server.py",
     "gmail": REPO_ROOT / "tools" / "gmail" / "server.py",
+    "gdrive": REPO_ROOT / "tools" / "gdrive" / "server.py",
+    "gdocs": REPO_ROOT / "tools" / "gdocs" / "server.py",
+    "gmeet": REPO_ROOT / "tools" / "gmeet" / "server.py",
     # "docker": REPO_ROOT / "tools" / "docker" / "server.py",
 }
 
