@@ -22,6 +22,10 @@ tools/gdocs/credentials.json
 tools/gdocs/token.json
 tools/gmeet/credentials.json
 tools/gmeet/token.json
+tools/youtube/credentials.json
+tools/youtube/token.json
+tools/spotify/.cache
+tools/gmeet/token.json
 
 # Editor
 .vscode/
