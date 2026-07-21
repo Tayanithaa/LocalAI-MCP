@@ -10,8 +10,12 @@ from pathlib import Path
 
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
+from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+# Load .env file explicitly so the subprocess gets the keys
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 from mcp.server.fastmcp import FastMCP  # noqa: E402
 from config.logger import get_logger  # noqa: E402

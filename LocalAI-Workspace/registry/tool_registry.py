@@ -31,14 +31,14 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 # name -> path to the server script. Extend this dict to add new plugins.
 TOOL_SERVERS: dict[str, Path] = {
     #"filesystem": REPO_ROOT / "tools" / "filesystem" / "server.py",
-    #"duckduckgo": REPO_ROOT / "tools" / "duckduckgo" / "server.py",
+    "duckduckgo": REPO_ROOT / "tools" / "duckduckgo" / "server.py",
     "calendar": REPO_ROOT / "tools" / "calendar" / "server.py",
     "github": REPO_ROOT / "tools" / "github" / "server.py",
     "gmail": REPO_ROOT / "tools" / "gmail" / "server.py",
     "gdrive": REPO_ROOT / "tools" / "gdrive" / "server.py",
     "gdocs": REPO_ROOT / "tools" / "gdocs" / "server.py",
     "gmeet": REPO_ROOT / "tools" / "gmeet" / "server.py",
-    "spotify": REPO_ROOT / "tools" / "spotify" / "server.py",
+    #"spotify": REPO_ROOT / "tools" / "spotify" / "server.py",
     "youtube": REPO_ROOT / "tools" / "youtube" / "server.py",
     # "docker": REPO_ROOT / "tools" / "docker" / "server.py",
 }
