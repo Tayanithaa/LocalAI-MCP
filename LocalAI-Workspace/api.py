@@ -71,6 +71,15 @@ async def chat_endpoint(req: ChatRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/api/tools")
+async def get_tools():
+    if not registry:
+        return {"tools": []}
+    # list_tools returns ToolSpec objects, we need to convert them to dicts for JSON
+    tools = [{"server": t.server, "name": t.name, "description": t.description} for t in registry.list_tools()]
+    return {"tools": tools}
+
+
 # Mount the frontend directory at the root URL
 import os
 frontend_dir = os.path.join(os.path.dirname(__file__), "frontend")
