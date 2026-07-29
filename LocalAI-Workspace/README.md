@@ -1,10 +1,10 @@
-# Local AI Workspace 🧠✨
+# Local AI Workspace 
 
 A powerful, privacy-first, locally-hosted AI assistant with a beautiful web interface. Powered by **Ollama**, **FastAPI**, and the **Model Context Protocol (MCP)**.
 
 Instead of a standard chatbot that is trapped in a browser tab, this workspace gives a local Large Language Model (like Llama 3.1) secure, agentic access to your real-world data and applications.
 
-## 🚀 Key Features
+##  Key Features
 
 *   **100% Local Inference**: The "brain" of the AI runs on your own hardware using Ollama. No prompts or personal data are sent to cloud AI providers.
 *   **Agentic Framework**: The orchestrator allows the AI to autonomously plan tasks, decide which tools to use, execute them, and parse the results in a loop.
@@ -13,28 +13,28 @@ Instead of a standard chatbot that is trapped in a browser tab, this workspace g
 
 ---
 
-## 🔌 Included Integrations (MCP Servers)
+##  Included Integrations (MCP Servers)
 
 The workspace currently supports a massive suite of real-world tools:
 
 *   **Google Workspace Suite:**
-    *   📧 **Gmail:** Read and send emails.
-    *   📅 **Calendar:** Check your schedule and create new events.
-    *   📁 **Drive:** Search and manage files.
-    *   📝 **Docs:** Read and create documents.
-    *   🎥 **Meet:** Generate instant video call links.
+    *    **Gmail:** Read and send emails.
+    *    **Calendar:** Check your schedule and create new events.
+    *    **Drive:** Search and manage files.
+    *    **Docs:** Read and create documents.
+    *    **Meet:** Generate instant video call links.
 *   **Developer & Web Tools:**
-    *   🐙 **GitHub:** Search repositories and read user profiles.
-    *   🦆 **DuckDuckGo:** Fetch live web search results.
+    *    **GitHub:** Search repositories and read user profiles.
+    *    **DuckDuckGo:** Fetch live web search results.
 *   **Media:**
-    *   ▶️ **YouTube:** Search for videos and fetch links.
-    *   🎵 **Spotify:** Control music playback and search tracks *(Requires Spotify Premium)*.
+    *    **YouTube:** Search for videos and fetch links.
+    *    **Spotify:** Control music playback and search tracks *(Requires Spotify Premium)*.
 
 *(Note: The MCP architecture makes it incredibly easy to add new tools. Just create a new `server.py` in the `tools/` directory and register it!)*
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 1.  **Frontend (`frontend/`)**: HTML/CSS/JS interface that sends user queries via HTTP POST to the backend.
 2.  **API Backend (`api.py`)**: A FastAPI server that routes requests and manages the Orchestrator's lifespan.
@@ -44,7 +44,7 @@ The workspace currently supports a massive suite of real-world tools:
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Prerequisites
 *   Install [Ollama](https://ollama.com/) and have it running in the background.
